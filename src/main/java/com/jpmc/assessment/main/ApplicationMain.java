@@ -41,7 +41,7 @@ public class ApplicationMain {
 		transaction = AppUtil.createTestData("SCOTT", 'B', 0.36f, Currency.SAR, 2016, 0, 1, 2016, 0 , 2, 50, 145.6);
 		main.recordTransaction(transaction);
 		
-		transaction = AppUtil.createTestData("HARRISON", 'S', 0.36f, Currency.SAR, 2016, 0, 1, 2016, 0 , 2, 150, 142.6);
+		transaction = AppUtil.createTestData("HARRY", 'S', 0.36f, Currency.SAR, 2016, 0, 1, 2016, 0 , 2, 150, 142.6);
 		main.recordTransaction(transaction);
 		
 		transaction = AppUtil.createTestData("BARRY", 'B', 0.22f, Currency.AED, 2016, 0, 2, 2016, 0 , 3, 450, 150.5);
