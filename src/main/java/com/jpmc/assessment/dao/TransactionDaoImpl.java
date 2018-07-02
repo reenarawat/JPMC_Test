@@ -16,7 +16,7 @@ public class TransactionDaoImpl implements CRUDOperations<TransactionDTO> {
 	private static List<TransactionDTO> listOfTransactions = new ArrayList<>();
 
 	/* (non-Javadoc)
-	 * @see com.jp.assessment.Test1.dao.CRUDOperations#add(java.lang.Object)
+	 * @see com.jpmc.assessment.dao.CRUDOperations#add(java.lang.Object)
 	 */
 	@Override
 	public void add(TransactionDTO t) {
@@ -24,7 +24,7 @@ public class TransactionDaoImpl implements CRUDOperations<TransactionDTO> {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.jp.assessment.Test1.dao.CRUDOperations#fetchData()
+	 * @see com.jpmc.assessment.dao.CRUDOperations#fetchData()
 	 */
 	@Override
 	public List<TransactionDTO> fetchData() {

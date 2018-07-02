@@ -34,7 +34,7 @@ public class ReportServiceImpl implements ReportService, AppConstants {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.jp.assessment.Test1.service.ReportService#generateIncomingReport()
+	 * @see com.jpmc.assessment.service.ReportService#generateIncomingReport()
 	 * 
 	 * Computes amount in USD settled incoming everyday
 	 */
@@ -52,7 +52,7 @@ public class ReportServiceImpl implements ReportService, AppConstants {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.jp.assessment.Test1.service.ReportService#generateOutgoingReport()
+	 * @see com.jpmc.assessment.service.ReportService#generateOutgoingReport()
 	 * 
 	 * Computes amount in USD settled outgoing everyday
 	 */
@@ -117,7 +117,7 @@ public class ReportServiceImpl implements ReportService, AppConstants {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.jp.assessment.Test1.service.ReportService#generateEntityIncomingRankReport()
+	 * @see com.jpmc.assessment.service.ReportService#generateEntityIncomingRankReport()
 	 * 
 	 * Computes entity ranking for all incoming transactions and ranks based on 
 	 * amount of trade entity is dealing
@@ -131,7 +131,7 @@ public class ReportServiceImpl implements ReportService, AppConstants {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.jp.assessment.Test1.service.ReportService#generateEntityOutgoingRankReport()
+	 * @see com.jpmc.assessment.service.ReportService#generateEntityOutgoingRankReport()
 	 * 
 	 * Computes entity ranking for all outgoing transactions and ranks based on 
 	 * amount of trade entity is dealing
